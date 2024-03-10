@@ -43,9 +43,6 @@ public class OneDimArrayString : OneDimArray<string>
         for (int i = 0; i < Array.Length; i++) 
         { 
             Array[i] = Console.ReadLine()??"";
-            Console.Write(i + " ");
         }
-        Console.WriteLine(); 
     }
-
 }
