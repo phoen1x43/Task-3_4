@@ -30,10 +30,8 @@ public class OneDimArrayInt : OneDimArray<int>
         Console.WriteLine("Введите элементы массива (целые числа):"); 
         for (int i = 0; i<Array.Length; i++) 
         { 
-            Console.Write(i + " ");
             Array[i] = Convert.ToInt32(Console.ReadLine());
         } 
-        Console.WriteLine(); 
     }
 
 }
