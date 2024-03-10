@@ -32,9 +32,7 @@ public class OneDimArrayDouble : OneDimArray<double>
         Console.WriteLine("Введите элементы массива (вещественные числа):"); 
         for (int i = 0; i < Array.Length; i++) 
         { 
-            Console.Write(i + " ");
             Array[i] = double.Parse(Console.ReadLine()??"0");
         } 
-        Console.WriteLine(); 
     }
 }
