@@ -31,10 +31,8 @@ public class OneDimArrayBool : OneDimArray<bool>
         Console.WriteLine("Введите элементы массива (true or false)"); 
         for (int i = 0; i < Array.Length; i++) 
         { 
-            Console.Write(i + " ");
             Array[i] = bool.Parse(Console.ReadLine()??"false");
         }
-        Console.WriteLine(); 
     }
 
 }
